@@ -14,12 +14,14 @@ body, html {width: 100%; margin: 0; padding: 0;}
 .imagenesIndex {width: 100%; height: 100%;}
 .barrasInfo {padding: 0; width: 100%;}
 .parrafo {color: white; padding: 2%;}
-.containImg img {object-fit: cover; height: 100%; max-width: 100%;}
+.containImg img {object-fit: cover; height: 100%; max-width: 100%; width: 100%;}
 .marginPadding {margin: 0; padding: 0;}
 .contactoMain {display: flex; flex-direction: row;}
 .padding {padding: 80px;}
 .tamañoInputs {width: 100%;}
-.tamañoInputsEscribenos {height: 150%;}
+.tamañoInputsEscribenos {height: 80%;}
 .paddingArtistas {padding: 120px;}
 .paddingInputs {padding: 20px;}
 .heightFix {height: 100%; object-fit: cover;}
+.card:hover {position: relative; top: -2%; color: blue;}
+.textShadow {text-shadow: 5px -2px black;}
